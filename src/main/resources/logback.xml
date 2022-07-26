@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration debug="true">
+    <appender name="cat" class="com.github.yihtserns.test.logback.appender.custom.CatAppender"/>
+    <root level="info">
+        <appender-ref ref="cat" />
+    </root>
+</configuration>
